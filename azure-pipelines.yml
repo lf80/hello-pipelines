@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
-container: mcr.microsoft.com/dotnet/nightly/sdk
+container: mcr.microsoft.com/dotnet/sdk
 
 steps:
 - task: DotNetCoreCLI@2
